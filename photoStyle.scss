@@ -1,0 +1,59 @@
+ @media screen
+ and (min-device-width: 1200px)
+ and (max-device-width: 1600px)
+ and (-webkit-min-device-pixel-ratio: 2)
+ and (min-resolution: 192dpi) {
+   img {
+        margin: 20%;
+        max-width: 40%;
+        height: auto;
+
+   }
+
+}
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+   body {
+       background-color: blue;
+   }
+}
+@media screen and (min-width:1201px) {
+   body {
+       background-color: red;
+   }
+}
+
+#image-slider {
+    width:100%;
+    max-width:500px; /* The actual width of our images */
+    overflow:hidden;
+    margin:0 auto; /* Just to centre the page */
+}
+
+ul {
+    width:100%; /* No. of images * 100% */
+    overflow:hidden;
+    position:relative;
+    list-style:none;
+}
+
+ul li {
+    float:left;
+    width:10%;
+}
+
+ul li img {
+    max-width:100%;
+}
+
+ul li {
+    transform:translate(100%, 0);
+    transition:all 10s ease;
+    /* Don't forget the vendor prefixes! I'm not using them for the sake of simplicity */
+}
+
+.firstpic:target {
+    transform:translate(0);
+}
+
+
+
