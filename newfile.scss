@@ -1,18 +1,38 @@
 $font-stack:    Helvetica, sans-serif;
-$primary-color: blue;
-$background-color: lightblue;
+$primary-color: red;
+$background-color: blue;
 $title-color: blue;
+$menu-background: gray;
 
 body {
-	font: 50% $font-stack;
+	font: 120% $font-stack;
+	background-color: white;
 }
 
 h1 {
 	color: $title-color;
 }
 
-.nav {
-	background-color: gray;
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: $menu-background;
+  }
+ 
+  li { display: inline-block; }
+ 
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: #blue;
 
+  }
+
+	a:hover {
+		color:white;
+	}
 
 }

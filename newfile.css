@@ -1,7 +1,23 @@
 body {
-  font: 50% Helvetica, sans-serif; }
+  font: 120% Helvetica, sans-serif;
+  background-color: white; }
 
 h1 {
   color: blue; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: gray; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #blue; }
+nav a:hover {
+  color: white; }
 
 /*# sourceMappingURL=newfile.css.map */
