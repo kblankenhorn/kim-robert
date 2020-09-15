@@ -21,39 +21,42 @@
        background-color: red;
    }
 }
-
-#image-slider {
-    width:100%;
-    max-width:500px; /* The actual width of our images */
-    overflow:hidden;
-    margin:0 auto; /* Just to centre the page */
+#wrapper {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+  }
+.image-slider{
+    width: 30%;
+}
+.image-slider img{
+    width: 100%;
+    height: 300px;
 }
 
-ul {
-    width:100%; /* No. of images * 100% */
-    overflow:hidden;
-    position:relative;
-    list-style:none;
-}
 
-ul li {
-    float:left;
-    width:10%;
-}
 
-ul li img {
-    max-width:100%;
-}
 
-ul li {
-    transform:translate(100%, 0);
-    transition:all 10s ease;
-    /* Don't forget the vendor prefixes! I'm not using them for the sake of simplicity */
-}
+  
 
+/*
 .firstpic:target {
+    display: block;
     transform:translate(0);
+    position: absolute;
 }
+
+.secondpic{
+    display: block;
+    transform:translate(0);
+    position: relative;
+}
+
+.thirdpic{
+    display: block;
+    transform:translate(0);
+    position: relative;
+}*/
 
 
 

@@ -1,23 +1,41 @@
 body {
   font: 120% Helvetica, sans-serif;
-  background-color: white; }
+  background-color: white;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
 
 h1 {
-  color: blue; }
+  color: blue;
+}
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  background: gray; }
+  background: gray;
+}
+
 nav li {
-  display: inline-block; }
+  display: inline-block;
+}
+
 nav a {
   display: block;
   padding: 6px 12px;
   text-decoration: none;
-  color: #blue; }
-nav a:hover {
-  color: white; }
+  color: #blue;
+}
 
+nav a:hover {
+  color: white;
+}
+
+img {
+  width: 50%;
+  height: 80%;
+}
 /*# sourceMappingURL=newfile.css.map */
