@@ -1,0 +1,12 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: blue;
+$background-color: lightblue;
+$title-color: blue;
+
+body {
+	font: 50% $font-stack;
+}
+
+h1 {
+	color: $title-color;
+}
